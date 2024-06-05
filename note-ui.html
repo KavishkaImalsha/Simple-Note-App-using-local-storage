@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Note app</title>
+</head>
+<body>
+    <div class="container form-container">
+        <h2 class="text-center mt-5">Note App</h2>
+
+        <form>
+            <div class="row mt-3">
+                <div class="col-9">
+                    <input type="text" id="note" placeholder="Enter the note" class="form-control">
+                </div>
+
+                <div class="col-3">
+                    <button type="button" id="addBtn" class="btn btn-success">Add Note</button>
+                </div>
+            </div>
+        </form>
+
+        <ul id="note-list" class="list-group list-group-flush mt-2"></ul>
+    </div>
+
+    <script src="JS/note-app.js"></script>
+</body>
+</html>
